@@ -1,4 +1,11 @@
 /* Reset styles */
+html{
+    background-image: url(./image/5166950.jpg);
+    background-size: cover;
+}
+.rt{
+    background-color: #ccc;
+}
 body {
     margin: 0;
     padding: 0;
@@ -74,10 +81,11 @@ nav ul li a {
 }
 
 .event-card {
+    background-color: #ccc;
     width: 300px;
     margin-bottom: 30px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 2px solid #1a1919;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
@@ -133,4 +141,16 @@ footer {
 
 .event-card {
     filter: sepia(0.1) hue-rotate(20deg) saturate(1.3) brightness(1.2);
+}
+.eventer{
+    background-color: #fffafa;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #1a1919;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
 }
