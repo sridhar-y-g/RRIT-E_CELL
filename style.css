@@ -3,10 +3,10 @@ html{
     background-image: url(./image/5166950.jpg);
     background-size: cover;
 }
-.rt{
+.rt>img{
     background-color: #ccc;
-    display: flex;
-    flex-wrap: wrap;
+    height:150px;
+    width:1000px;
 }
 body {
     margin: 0;
@@ -16,7 +16,8 @@ body {
 
 /* Header styles */
 header {
-    display: flex;
+    display: cover;
+    width:1000px;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
