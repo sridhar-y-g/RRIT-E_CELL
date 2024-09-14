@@ -154,3 +154,8 @@ footer {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
+marquee{
+    animation-direction: alternate-reverse;
+    color: #f5f5f5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
