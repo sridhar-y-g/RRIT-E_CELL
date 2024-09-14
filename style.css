@@ -175,3 +175,6 @@ marquee{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
     }
+.hero-content>img{
+  align-items: center;
+}
