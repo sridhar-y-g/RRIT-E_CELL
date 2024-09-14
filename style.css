@@ -1,24 +1,30 @@
 /* Reset styles */
 html{
-    background-image: url(./image/5166950.jpg);
+    background-image: url(IMG_20240914_191640.jpg);
     background-size: cover;
 }
-.rt>img{
+.rt{
     background-color: #ccc;
-    height:150px;
-    width:1000px;
-    padding:20px;
+    width: 1020px;
 }
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
+.font{
+  font-family: verdana,sans-serif;
+  font-size: 30px;
+  color: hotpink;
+  padding: 60px;
+}
+
 /* Header styles */
 header {
-    display: cover;
-    width:1000px;
+    display: flex;
+   width:980px;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -27,6 +33,7 @@ header {
 }
 
 .logo img {
+  display: flex;
     height: 50px;
 }
 
@@ -49,8 +56,6 @@ nav ul li a {
 /* Hero section styles */
 .hero {
     display: flex;
-    display: ce-between;
-    flex-wrap:wrap;
     align-items: center;
     background-image: url("hero-background.jpg");
     background-size: cover;
@@ -81,6 +86,10 @@ nav ul li a {
 
 /* Event highlights styles */
 .event-cards {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom:20px;
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -91,10 +100,10 @@ nav ul li a {
     width: 300px;
     margin-bottom: 30px;
     padding: 20px;
-    border: 2px solid #1a1919;
+    border: none;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -163,5 +172,6 @@ footer {
 marquee{
     animation-direction: alternate-reverse;
     color: #f5f5f5;
- 
-}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    }
