@@ -5,6 +5,8 @@ html{
 }
 .rt{
     background-color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
 }
 body {
     margin: 0;
@@ -45,6 +47,7 @@ nav ul li a {
 /* Hero section styles */
 .hero {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-image: url("hero-background.jpg");
     background-size: cover;
