@@ -2,6 +2,8 @@
 html{
     background-image: url(IMG_20240914_191640.jpg);
     background-size: cover;
+    border: none;
+Box-shadow: 30px 30px 20px rgba(0,0,0,0.3);
 }
 .rt{
     background-color: #ccc;
